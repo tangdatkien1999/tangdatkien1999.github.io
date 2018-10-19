@@ -8,6 +8,10 @@
     padding: .5rem
  }
 
+ .sticky-top .b{
+    padding: .5rem;
+ }
+
  .title .pages{
     padding-top: 1rem
  }
@@ -53,12 +57,16 @@ body {
 }
 
  .foot .form-inline{
-    padding: .5rem
+    padding: .5rem; 
 }
 
 .foot .dk{
     padding: .75rem;
     color: white;
+ }
+
+ .foot .dkbtn{
+    padding: .5rem;
  }
 
  .foot2{
