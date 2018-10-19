@@ -29,6 +29,10 @@ body {
     padding: 1rem
 }
 
+.shop .line .buy{
+     padding: .5rem
+}
+
 .shop .product{
    padding: 1rem;
    text-align: center
