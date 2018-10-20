@@ -8,6 +8,7 @@
     <title>DK Shop</title>
     <link rel="icon" href="img/icon.ico">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -27,8 +28,8 @@
                         <a class="nav-link text-white" href="index.html">Trang chủ</a>
                     </li>
                     <li>
-                        <div class="dropdown nav-item">
-                            <button class="btn btn-primary dropdown-toggle nav-item active" type="button" id="dropdownMenuButton"
+                        <div class="dropdown nav-item-active">
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Sản phẩm<span class="sr-only">(current)</span>
                             </button>
@@ -49,8 +50,31 @@
                     <button class="btn btn-outline-light text-white my-2 my-sm-0" type="submit">Tìm kiếm</button>
                 </form>
                 <div class="dropdown b">
-                    <button class="dropdown-header btn btn-outline-light my-2 my-sm-0 b" type="button"
-                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="dropdown-header btn btn-outline-light my-2 my-sm-0 b" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-user fax2 p"></i></button>
+                    <div class="dropdown-menu dropdown-menu-right b">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                    placeholder="Nhập email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Mật khẩu</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mật khẩu">
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Ghi nhớ mật khẩu</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Đăng nhập</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="dropdown b">
+                    <button class="dropdown-header btn btn-outline-light my-2 my-sm-0 b" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <img src="img/buy2.png" width="20" height="20" alt=""><sup><span class="badge badge-light">0</span></sup></button>
                     <div class="dropdown-menu dropdown-menu-right">
                         <p class="dropdown-item-text cart">
@@ -86,7 +110,7 @@
                                         Độ bền phím > 10.000.000 lượt bấm <br>
                                         Số Phím : 104 phím <br>
                                         Antighost bấm 1 lần được 19 phím</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -102,7 +126,7 @@
                                         Kết nối không dây 2.4Ghz <br>
                                         Thời gian sử dụng lâu <br>
                                         Sử dụng 2 pin AA</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -124,7 +148,7 @@
                                         <br>
                                         Các phím được bố trí theo công nghệ Zero Degree Titl không gây tiếng ồn khi sử
                                         dụng</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -142,7 +166,7 @@
                                         Kiểu giao tiếp: Giao tiếp qua cổng USB, đầu USB được mạ vàng nhằm tăng khả năng
                                         tiếp
                                         xúc</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -162,7 +186,7 @@
                                         4 loại switch khác nhau phù hợp với nhu cầu sử dụng <br>
                                         Mạ vàng mỗi switch <br>
                                         Tương thích với mọi hệ điều hành</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -180,7 +204,7 @@
                                         Led 3 màu : Xanh Dương - Đỏ - Tím bật tắt nét bằng phím Scroll Lock <br>
                                         Chân đế có gàm nâng tăng độ dốc, có đế cao su chống trượt.</p>
                                     Tương thích với mọi hệ điều hành</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -196,7 +220,7 @@
                                         Kết nối không dây 2.4Ghz <br>
                                         Khoảng cách kết nối: 10m <br>
                                         Thiết kế nhỏ gọn </p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -212,7 +236,7 @@
                                         Thiết kế full size <br>
                                         sử dụng Yellow switches tuổi thọ đảm bảo độ bền 60 triệu lần bấm <br>
                                         Kiểu giao tiếp: Giao tiếp qua cổng USB</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>

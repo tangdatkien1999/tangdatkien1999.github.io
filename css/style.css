@@ -103,3 +103,7 @@ body {
  .main .title2 {
     padding: 2rem;
  }
+
+ .fa-map-marker:before {
+    color: white;
+}

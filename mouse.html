@@ -8,6 +8,7 @@
     <title>DK Shop</title>
     <link rel="icon" href="img/icon.ico">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -24,11 +25,11 @@
                 <a class="navbar-brand text-white" href="index.html">DK Shop</a>
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="index.html">Trang chủ<span class="sr-only">(current)</span></a>
+                        <a class="nav-link text-white" href="index.html">Trang chủ</a>
                     </li>
                     <li>
-                        <div class="dropdown nav-item">
-                            <button class="btn btn-primary dropdown-toggle nav-item active" type="button" id="dropdownMenuButton"
+                        <div class="dropdown nav-item-active">
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Sản phẩm<span class="sr-only">(current)</span>
                             </button>
@@ -49,8 +50,31 @@
                     <button class="btn btn-outline-light text-white my-2 my-sm-0" type="submit">Tìm kiếm</button>
                 </form>
                 <div class="dropdown b">
-                    <button class="dropdown-header btn btn-outline-light my-2 my-sm-0 b" type="button"
-                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="dropdown-header btn btn-outline-light my-2 my-sm-0 b" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-user fax2 p"></i></button>
+                    <div class="dropdown-menu dropdown-menu-right b">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                    placeholder="Nhập email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Mật khẩu</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mật khẩu">
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Ghi nhớ mật khẩu</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Đăng nhập</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="dropdown b">
+                    <button class="dropdown-header btn btn-outline-light my-2 my-sm-0 b" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <img src="img/buy2.png" width="20" height="20" alt=""><sup><span class="badge badge-light">0</span></sup></button>
                     <div class="dropdown-menu dropdown-menu-right">
                         <p class="dropdown-item-text cart">
@@ -84,7 +108,7 @@
                                         Sensor: PAW3512 <br>
                                         Sóng 2.4G <br>
                                         DPI: 800-1200-1600 <br></p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -102,7 +126,7 @@
                                         Tùy chỉnh DPI trực tiếp trên chuột bằng Logitech Gaming Software <br>
                                         Bộ nhớ trong <br>
                                         Đèn led RGB</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -119,7 +143,7 @@
                                         Kết nối không dây 2.4Ghz <br>
                                         Khoảng cách kết nối: 10m <br>
                                         Sử dụng pin AA với cảm biến quang giúp kéo dài tuổi thọ pin</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -137,7 +161,7 @@
                                         Độ phân giải từ 250 đến tối đa 2000 DPI; <br>
                                         Điều chỉnh 8 mức phân giải khác nhau (DPI) 250; 500; 750; 1000; 1250; 1500;
                                         1750; 2000</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -156,7 +180,7 @@
                                         Khoảng cách hoạt động lên tới 10m <br>
                                         Sử dụng cảm biến tốc độ cao <br>
                                         Thời lượng Pin dài lâu, tiết kiệm chi phí.</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -172,7 +196,7 @@
                                         Độ phân giải: 1000 DPI <br>
                                         Chiều dài dây: 1,5m <br>
                                         Tương thích hệ điều hành: Windows XP/7/8/10</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -188,7 +212,7 @@
                                         Kết nối không dây 2.4GHz <br>
                                         Thiết kế dành cho người thuận tay phải <br>
                                         Đầu thu có thể thay đổi dễ dàng</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -204,7 +228,7 @@
                                         Chuẩn giao tiếp: USB <br>
                                         Bộ phân giải: 1000 DPI <br>
                                         Tương thích: Windows XP / Vista / 7 / 8 / 10</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -223,7 +247,7 @@
                                         Thiết kế 7 nút có thể tùy chỉnh bằng phần mềm <br>
                                         Thiết kế trọn bàn tay, thoải mái cho người dùng <br>
                                         Công nghệ Silence giảm 90% tiếng ồn</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -246,7 +270,7 @@
                                         Lập trình các lệnh và macro ưa thích cho từng nút trong 11 nút <br>
                                         Chuyển đổi DPI trong trờ chơi sẵn sàng ngay lập tức <br>
                                         Bánh xe cuộn đẳng cấp chơi game, chế độ kép, chính xác</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -263,7 +287,7 @@
                                         Kết nối thông qua cổng USB <br>
                                         Dùng 1 viên Pin AA, thời lượng pin dùng lên đến nhiều tháng <br>
                                         Công nghệ kết nối không dây 2.4GHz</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -279,7 +303,7 @@
                                         Kết nối: Wireless <br>
                                         Công nghệ: BlueEye <br>
                                         Tương thích hệ điều hành: Windows XP/7/8/10</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>

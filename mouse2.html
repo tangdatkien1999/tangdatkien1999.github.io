@@ -8,6 +8,7 @@
     <title>DK Shop</title>
     <link rel="icon" href="img/icon.ico">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -24,11 +25,11 @@
                 <a class="navbar-brand text-white" href="index.html">DK Shop</a>
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="index.html">Trang chủ<span class="sr-only"></span></a>
+                        <a class="nav-link text-white" href="index.html">Trang chủ</a>
                     </li>
-                    <li class="nav-item active text-dark">
-                        <div class="dropdown nav-item">
-                            <button class="btn btn-primary dropdown-toggle nav-item active" type="button" id="dropdownMenuButton"
+                    <li>
+                        <div class="dropdown nav-item-active">
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Sản phẩm<span class="sr-only">(current)</span>
                             </button>
@@ -49,8 +50,31 @@
                     <button class="btn btn-outline-light text-white my-2 my-sm-0" type="submit">Tìm kiếm</button>
                 </form>
                 <div class="dropdown b">
-                    <button class="dropdown-header btn btn-outline-light my-2 my-sm-0 b" type="button"
-                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="dropdown-header btn btn-outline-light my-2 my-sm-0 b" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-user fax2 p"></i></button>
+                    <div class="dropdown-menu dropdown-menu-right b">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                    placeholder="Nhập email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Mật khẩu</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mật khẩu">
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Ghi nhớ mật khẩu</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Đăng nhập</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="dropdown b">
+                    <button class="dropdown-header btn btn-outline-light my-2 my-sm-0 b" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <img src="img/buy2.png" width="20" height="20" alt=""><sup><span class="badge badge-light">0</span></sup></button>
                     <div class="dropdown-menu dropdown-menu-right">
                         <p class="dropdown-item-text cart">
@@ -85,7 +109,7 @@
                                         Cảm biến quang học với độ phân giải 800 DPI <br>
                                         Đèn LED màu đỏ <br>
                                         Cổng giao tiếp USB</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -102,7 +126,7 @@
                                         Khoảng cách 10m <br>
                                         Pin chuẩn AA <br>
                                         Kết nối USB receiver</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -119,7 +143,7 @@
                                         Độ bền switch hơn 10 triệu lượt click <br>
                                         Chế độ đèn nhấp nháy 7 màu tự thay đổi <br>
                                         SDây dài 1.2m chống nhiễu</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -135,7 +159,7 @@
                                         Cảm biến quang học 3 mức DPI: 800/1200/1600 <br>
                                         Chiều dài dây: 1,5m <br>
                                         Đèn led RGB</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>

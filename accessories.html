@@ -8,6 +8,7 @@
     <title>DK Shop</title>
     <link rel="icon" href="img/icon.ico">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -24,11 +25,11 @@
                 <a class="navbar-brand text-white" href="index.html">DK Shop</a>
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="index.html">Trang chủ<span class="sr-only">(current)</span></a>
+                        <a class="nav-link text-white" href="index.html">Trang chủ</a>
                     </li>
                     <li>
-                        <div class="dropdown nav-item">
-                            <button class="btn btn-primary dropdown-toggle nav-item active" type="button" id="dropdownMenuButton"
+                        <div class="dropdown nav-item-active">
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Sản phẩm<span class="sr-only">(current)</span>
                             </button>
@@ -49,8 +50,31 @@
                     <button class="btn btn-outline-light text-white my-2 my-sm-0" type="submit">Tìm kiếm</button>
                 </form>
                 <div class="dropdown b">
-                    <button class="dropdown-header btn btn-outline-light my-2 my-sm-0 b" type="button"
-                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="dropdown-header btn btn-outline-light my-2 my-sm-0 b" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-user fax2 p"></i></button>
+                    <div class="dropdown-menu dropdown-menu-right b">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                    placeholder="Nhập email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Mật khẩu</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mật khẩu">
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Ghi nhớ mật khẩu</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Đăng nhập</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="dropdown b">
+                    <button class="dropdown-header btn btn-outline-light my-2 my-sm-0 b" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <img src="img/buy2.png" width="20" height="20" alt=""><sup><span class="badge badge-light">0</span></sup></button>
                     <div class="dropdown-menu dropdown-menu-right">
                         <p class="dropdown-item-text cart">
@@ -88,7 +112,7 @@
                                         Thích hợp tất cả các loại chuột <br>
                                         Cảm giác êm tay chống lạnh vào mùa đông <br>
                                         Chống chai tay cho các game thủ</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -104,7 +128,7 @@
                                         Dành cho máy tính và Xbox 360 <br>
                                         Phản hồi Rung <br>
                                         Tiện dụng</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -121,7 +145,7 @@
                                         Trở kháng: 30 Ω <br>
                                         Micro: Đáp tuyến tần số 50 Hz-18.000 Hz <br>
                                         Độ nhạy -40 dBV (0 dB=1 V/Pa,1 kHz)</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -138,7 +162,7 @@
                                         4 phím di chuyển D-pad riêng <br>
                                         Có thể tùy chỉnh các nút theo phần mềm quản lí <br>
                                         Dây cáp dài: 1.8m</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -156,7 +180,7 @@
                                         Kết nối: USB 3.0 <br>
                                         Hỗ trợ HDD 2.5 inch và SSD tối đa 6TB <br>
                                         Chép/xuất dữ liệu ra thiết bị khác nhanh chóng</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -172,7 +196,7 @@
                                         Tản nhiệt nhanh chóng <br>
                                         Chủ động tản nhiệt <br>
                                         Dễ dàng vệ sinh khi sử dụng.</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -188,7 +212,7 @@
                                         Thiết kế lỗ thoát khí với tấm lọc bụi <br>
                                         Khay gắn (x Số khay): 1x HDD, 1x SSD, 4 x PCI slot <br>
                                         Cổng giao tiếp: 2 x USB, Audio</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -205,7 +229,7 @@
                                         Jack âm thanh 3.5mm <br>
                                         Nguồn USB <br>
                                         Có nút chỉnh âm lượng</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -224,7 +248,7 @@
                                         Độ nghiêng trái phải: 180° <br>
                                         Độ nghiêng lên xuống: 90° <br>
                                         Độ xoay: 360° </p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -240,7 +264,7 @@
                                         Thiết kế lỗ thoát khí với tấm lọc bụi <br>
                                         Khay gắn (x Số khay): 1x HDD, 1x SSD, 7 x PCI slot <br>
                                         Cổng giao tiếp: 2 x USB, Audio</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -257,7 +281,7 @@
                                         Kết nối jack 3.5mm <br>
                                         Hỗ trợ kết nối USB <br>
                                         Kèm Remote điều khiển đầy đủ tính năng</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -279,7 +303,7 @@
                                         sunt, provident explicabo odio cum officia error asperiores nostrum maxime, eos
                                         vero,
                                         commodi perspiciatis optio. Molestiae, excepturi ducimus?</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>

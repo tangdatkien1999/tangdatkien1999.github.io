@@ -8,6 +8,7 @@
     <title>DK Shop</title>
     <link rel="icon" href="img/icon.ico">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -27,9 +28,11 @@
                         <a class="nav-link text-white" href="index.html">Trang chủ</a>
                     </li>
                     <li>
-                        <div class="dropdown nav-item">
-                            <button class="btn btn-primary dropdown-toggle nav-item active" type="button" id="dropdownMenuButton"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sản phẩm<span class="sr-only">>(current)</span></button>
+                        <div class="dropdown nav-item-active">
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Sản phẩm<span class="sr-only">(current)</span>
+                            </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="mouse.html">Chuột máy tính</a>
                                 <a class="dropdown-item" href="keyboard.html">Bàn phím máy tính</a>
@@ -47,8 +50,31 @@
                     <button class="btn btn-outline-light text-white my-2 my-sm-0" type="submit">Tìm kiếm</button>
                 </form>
                 <div class="dropdown b">
-                    <button class="dropdown-header btn btn-outline-light my-2 my-sm-0 b" type="button"
-                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="dropdown-header btn btn-outline-light my-2 my-sm-0 b" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-user fax2 p"></i></button>
+                    <div class="dropdown-menu dropdown-menu-right b">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                    placeholder="Nhập email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Mật khẩu</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mật khẩu">
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Ghi nhớ mật khẩu</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Đăng nhập</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="dropdown b">
+                    <button class="dropdown-header btn btn-outline-light my-2 my-sm-0 b" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <img src="img/buy2.png" width="20" height="20" alt=""><sup><span class="badge badge-light">0</span></sup></button>
                     <div class="dropdown-menu dropdown-menu-right">
                         <p class="dropdown-item-text cart">
@@ -85,7 +111,7 @@
                                         VGA : Intel UHD Graphics 620 <br>
                                         HĐH : Windows 10 (64bit) <br>
                                         Nặng : 1.43 kg</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -103,7 +129,7 @@
                                         VGA : Intel HD Graphics Share <br>
                                         HĐH : Free DOS <br>
                                         Nặng : 2.09 Kg</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -121,7 +147,7 @@
                                         VGA : NVIDIA Geforce GTX 1050 4 GB <br>
                                         HĐH : Windows 10 Home <br>
                                         Nặng : 2.2 Kg</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -139,7 +165,7 @@
                                         VGA : NVIDIA Geforce 920MX 2 GB <br>
                                         HĐH : Free DOS <br>
                                         Nặng : 2.0 kg</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -163,7 +189,7 @@
                                         Màn hình: 13.3-inch Full HD (1920 x 1080) IPS 60Hz, Anti-Glare with 45% NTSC
                                         <br>
                                         Hệ điều hành: Windows 10 bản quyền</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -181,7 +207,7 @@
                                         Ổ cứng: 128GB PCIe-Based Flash <br>
                                         Chipset đồ họa: Intel HD Graphics 6000 <br>
                                         Hệ điều hành: macOS Sierra</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -202,7 +228,7 @@
                                         Màn hình: 17.3 inch Full HD (1920 x 1080), wideview 94%NTSC color Anti-glare
                                         <br>
                                         Hệ điều hành: Windows 10 Home bản quyền</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
@@ -220,7 +246,7 @@
                                         RAM: 4GB DDR4 <br>
                                         HĐH: Windows 10 <br>
                                         Pin: 3 Cell</p>
-                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                    <a href="product-detail.html" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
                                             height="45" class="buy" alt="">Mua ngay</a>
                                 </figcaption>
                             </figure>
