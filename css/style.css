@@ -1,3 +1,8 @@
+.sticky-top .dropdown .cart{
+    padding: 1rem;
+    color: rgb(172, 171, 171);
+    text-align: center
+}
 
 .title {
    padding: .75rem;
@@ -26,6 +31,10 @@ body {
 .shop .name {
     padding-top: 2rem;
     padding-bottom: 1rem
+}
+
+.shop .pages {
+    padding-top: 1rem;
 }
 
 .shop .line {
@@ -87,26 +96,10 @@ body {
     line-height: 1.25rem
  }
 
-/*.title h1 {
-    line-height: 2.5rem;
-}
-.title p {
-    line-height: 1.5rem;
-    opacity: .6;
-}
- .lines {
-    background: #dfdfdf;
-    margin-bottom: 2rem;
-}
-.lines .breadcrumb {
-    margin-bottom: 0;
-    background: none;
-    padding: .75rem 0;
-}
-.shop figure {
-    border: 1px solid #dfdfdf;
-    padding: 1rem
-}
-.shop figure:hover {
-    box-shadow: 0 0 15px rgba(179, 179, 179, 0.75);
-} */
+ .main {
+    background: white;
+ }
+
+ .main .title2 {
+    padding: 2rem;
+ }
