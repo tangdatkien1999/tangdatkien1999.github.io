@@ -27,10 +27,10 @@
                         <a class="nav-link text-white" href="index.html">Trang chủ<span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item active text-dark">
-                        <div class="dropdown">
-                            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        <div class="dropdown nav-item">
+                            <button class="btn btn-primary dropdown-toggle nav-item active" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Sản phẩm
+                                Sản phẩm<span class="sr-only">(current)</span>
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item" href="mouse.html">Chuột máy tính</a>
@@ -48,72 +48,97 @@
                     <input class="form-control text-dark mr-sm-2" type="search" placeholder="Nhập từ khoá" aria-label="Search">
                     <button class="btn btn-outline-light text-white my-2 my-sm-0" type="submit">Tìm kiếm</button>
                 </form>
+                <div class="dropdown b">
+                    <button class="dropdown-header btn btn-outline-light my-2 my-sm-0 b" type="button"
+                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="img/buy2.png" width="20" height="20" alt=""><sup><span class="badge badge-light">0</span></sup></button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <p class="dropdown-item-text cart">
+                            Giỏ hàng của bạn đang trống
+                        </p>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
     <!-- Kết thúc phần đầu -->
 
+    <!-- ////// PHẦN NỘI DUNG CHÍNH //////-->
     <main>
-        <section class="title">
+        <section class="shop">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-md-12 col-lg-12">
-                        <h2 class="text-white">Chuột máy tính</h2>
-                    </div>
-                </div>
-                <div class="card-deck">
-                    <div class="card">
-                        <img class="card-img-top" src="img/Product/Mouse13.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Chuột Có Dây E-BLUE Puntero EMS146</h5>
-                            <p class="card-text text-danger"><b>86.500₫</b></p>
-                            <p class="card-text">
-                                Thiết kế đơn giản <br>
-                                Cảm biến quang học với độ phân giải 800 DPI <br>
-                                Đèn LED màu đỏ <br>
-                                Cổng giao tiếp USB</p>
-                            <a href="#" class="p-2 mb-2 bg-danger text-white">Mua ngay</a>
+                    <div class="col-md-6 col-lg-12">
+                        <div class="row">
+                            <h2 class="text-white name">Chuột đang hot</h2>
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="img/Product/Mouse14.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Chuột Không Dây Elecom M-BL21DB</h5>
-                            <p class="card-text text-danger"><b>419.000₫</b></p>
-                            <p class="card-text">
-                                Độ phân giải cảm ứng 2000 DPI <br>
-                                Kết nối không dây 2.4 GHz <br>
-                                Khoảng cách 10m <br>
-                                Pin chuẩn AA <br>
-                                Kết nối USB receiver</p>
-                            <a href="#" class="p-2 mb-2 bg-danger text-white">Mua ngay</a>
+                    <div class="row line">
+                        <div class="col-md-6 col-lg-3 product">
+                            <figure>
+                                <img src="img/Product/Mouse13.jpg" alt="" class="img-fluid">
+                                <figcaption>
+                                    <h5>Chuột Có Dây E-BLUE Puntero EMS146</h5>
+                                    <p class="ext-danger"><b>86.500₫</b></p>
+                                    <p class="detail">
+                                        Thiết kế đơn giản <br>
+                                        Cảm biến quang học với độ phân giải 800 DPI <br>
+                                        Đèn LED màu đỏ <br>
+                                        Cổng giao tiếp USB</p>
+                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                            height="45" class="buy" alt="">Mua ngay</a>
+                                </figcaption>
+                            </figure>
                         </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="img/Product/Mouse15.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Chuột LED Chơi Game Có Dây Bosston GM800</h5>
-                            <p class="card-text text-danger"><b>349.000₫</b></p>
-                            <p class="card-text">
-                                Độ phân giải DPI: 500/1000/1500/2000/3000/4000 <br>
-                                7 phím đa phương tiện (có 2 phím DPI tăng giảm riêng biệt) <br>
-                                Độ bền switch hơn 10 triệu lượt click <br>
-                                Chế độ đèn nhấp nháy 7 màu tự thay đổi <br>
-                                SDây dài 1.2m chống nhiễu</p>
-                            <a href="#" class="p-2 mb-2 bg-danger text-white">Mua ngay</a>
+                        <div class="col-md-6 col-lg-3 product">
+                            <figure>
+                                <img src="img/Product/Mouse14.jpg" alt="" class="img-fluid">
+                                <figcaption>
+                                    <h5>Chuột Không Dây Elecom M-BL21DB</h5>
+                                    <p class="text-danger"><b>419.000₫</b></p>
+                                    <p class="detail">
+                                        Độ phân giải cảm ứng 2000 DPI <br>
+                                        Kết nối không dây 2.4 GHz <br>
+                                        Khoảng cách 10m <br>
+                                        Pin chuẩn AA <br>
+                                        Kết nối USB receiver</p>
+                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                            height="45" class="buy" alt="">Mua ngay</a>
+                                </figcaption>
+                            </figure>
                         </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="img/Product/Mouse16.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Chuột Chơi Game Chuyên Nghiệp Có Dây Chính Hãng Dale
-                                excellent (dare-u) VX6</h5>
-                            <p class="card-text text-danger"><b>204.000₫</b></p>
-                            <p class="card-text">
-                                Cảm biến quang học 3 mức DPI: 800/1200/1600 <br>
-                                Chiều dài dây: 1,5m <br>
-                                Đèn led RGB</p>
-                            <a href="#" class="p-2 mb-2 bg-danger text-white">Mua ngay</a>
+                        <div class="col-md-6 col-lg-3 product">
+                            <figure>
+                                <img src="img/Product/Mouse15.jpg" alt="" class="img-fluid">
+                                <figcaption>
+                                    <h5>Chuột LED Chơi Game Có Dây Bosston GM800</h5>
+                                    <p class="text-danger"><b>349.000₫</b></p>
+                                    <p class="detail">
+                                        Độ phân giải DPI: 500/1000/1500/2000/3000/4000 <br>
+                                        7 phím đa phương tiện (có 2 phím DPI tăng giảm riêng biệt) <br>
+                                        Độ bền switch hơn 10 triệu lượt click <br>
+                                        Chế độ đèn nhấp nháy 7 màu tự thay đổi <br>
+                                        SDây dài 1.2m chống nhiễu</p>
+                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                            height="45" class="buy" alt="">Mua ngay</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-6 col-lg-3 product">
+                            <figure>
+                                <img src="img/Product/Mouse16.jpg" alt="" class="img-fluid">
+                                <figcaption>
+                                    <h5>Chuột Chơi Game Chuyên Nghiệp Có Dây Chính Hãng Dale
+                                        excellent (dare-u) VX6</h5>
+                                    <p class="text-danger"><b>204.000₫</b></p>
+                                    <p class="detail">
+                                        Cảm biến quang học 3 mức DPI: 800/1200/1600 <br>
+                                        Chiều dài dây: 1,5m <br>
+                                        Đèn led RGB</p>
+                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                            height="45" class="buy" alt="">Mua ngay</a>
+                                </figcaption>
+                            </figure>
                         </div>
                     </div>
                 </div>
@@ -131,11 +156,76 @@
                         </ul>
                     </nav>
                 </div>
-            </div>
         </section>
     </main>
-    <script src="js/jquer
-        y-3.3.1.slim.min.js"></script>
+    <!-- ////// Kết thúc PHẦN NỘI DUNG CHÍNH //////-->
+
+    <!-- Phần cuối trang -->
+    <footer>
+        <section class="foot">
+            <div class="container mt-4">
+                <div class="row k">
+                    <nav class="navbar navbar-light">
+                        <form class="form-inline">
+                            <h5 class="dk">Đăng ký nhận bản tin</h5>
+                            <input type="text" class="form-control" placeholder="Email" aria-label="Email"
+                                aria-describedby="basic-addon1">
+                            <div class="dkbtn"><button class="btn btn-outline-light text-white my-2 my-sm-0" type="submit">Đăng
+                                    ký</button></div>
+                        </form>
+                    </nav>
+                </div>
+                <div class="row foot2">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="footer-title">
+                            <h4>DỊCH VỤ</h4>
+                        </div>
+                        <div class="footer-content">
+                            <p><a href="#">Điều khoản sử dụng</a></p>
+                            <p><a href="#">Chính sách bảo mật</a></p>
+                            <p><a href="#">Giới thiệu DK</a></p>
+                            <p><a href="#">Hệ thống phân phối</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="footer-title">
+                            <h4>HỖ TRỢ</h4>
+                        </div>
+                        <div class="footer-content">
+                            <p><a href="#">Chính sách đổi - trả - hoàn tiền</a></p>
+                            <p><a href="#">Chính sách khách sỉ</a></p>
+                            <p><a href="#">Phương thức vận chuyển</a></p>
+                            <p><a href="#">Phương thức thanh toán</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="footer-title">
+                            <h4>TÀI KHOẢN CỦA TÔI</h4>
+                        </div>
+                        <div class="footer-content">
+                            <p><a href="#">Đăng nhập/Tạo mới tài khoản</a></p>
+                            <p><a href="#">Thay đổi địa chỉ khách hàng</a></p>
+                            <p><a href="#">Chi tiết tài khoản</a></p>
+                            <p><a href="#">Lịch sử mua hàng</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="footer-title">
+                            <h4>LIÊN HỆ</h4>
+                        </div>
+                        <div class="footer-content2">
+                            <p>Địa Chỉ: 06 xxxx xxx, phường X, quận Y, thành phố Z</p>
+                            <p>Email: hotro@dk.vn </p>
+                            <p>Phone: 1900 xxxx </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- Kết thúc phần cuối trang -->
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
