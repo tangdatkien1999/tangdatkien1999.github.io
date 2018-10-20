@@ -8,190 +8,308 @@
     <title>DK Shop</title>
     <link rel="icon" href="img/icon.ico">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <img src="img/icon.ico" width="40" height="40" alt="DK Shop">
-            <a class="navbar-brand" href="#">DK Shop</a>
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Trang chủ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Mouse.html">Chuột máy tính</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Keyboard.html">Bàn phím máy tính</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="laptop.html">Laptop<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="accessories.html">Phụ kiện</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">Về chúng tôi</a>
-                </li>
-               
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Nhập từ khoá" aria-label="Search">
-                <button class="btn btn-outline-white my-2 my-sm-0" type="submit">Tìm kiếm</button>
-            </form>
-        </div>
-    </nav>
-<div class="container">
-    <div class="row mt-5">
-        <div class="col-sm-12 col-md-12 col-lg-12 mt-3">
-            <h2 class="text-danger">Laptop</h2>
-            <div class="card-deck">
-                <div class="card">
-                    <img class="card-img-top" src="img/Product/Laptop1.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Asus Vivobook S14 S410UA-EB003T</h5>
-                        <p class="card-text text-danger"> <b>15.990.000₫</b></p>
-                        <p class="card-text">
-                            Màn Hình : 14 inch Full HD Wide View <br>
-                            CPU : Intel Core i5-8250U <br>
-                            Ram : 4 GB DDR4 <br>
-                            VGA : Intel UHD Graphics 620 <br>
-                            HĐH : Windows 10 (64bit) <br>
-                            Nặng : 1.43 kg</p>
-                        <a href="#" class="p-2 mb-2 bg-danger text-white">Mua ngay</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="img/Product/Laptop2.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Asus X441UA-WX027</h5>
-                        <p class="card-text text-danger"> <b>8.990.000₫</b></p>
-                        <p class="card-text">
-                            Màn Hình : 14 inchHD LED backlight <br>
-                            CPU : Intel Core i3 <br>
-                            Ram : 4 GB DDR4 <br>
-                            VGA : Intel HD Graphics Share <br>
-                            HĐH : Free DOS <br>
-                            Nặng : 2.09 Kg</p>
-                        <a href="#" class="p-2 mb-2 bg-danger text-white">Mua ngay</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="img/Product/Laptop3.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Asus FX503VD-E4082T/Core i5-7300HQ</h5>
-                        <p class="card-text text-danger"> <b>20.490.000₫</b></p>
-                        <p class="card-text">
-                            Màn Hình : 15.6 inch Full HD <br>
-                            CPU : Intel Core i5-7300HQ <br>
-                            Ram : 8 GB, DDR4, 2400MHz <br>
-                            VGA : NVIDIA Geforce GTX 1050 4 GB <br>
-                            HĐH : Windows 10 Home <br>
-                            Nặng : 2.2 Kg</p>
-                        <a href="#" class="p-2 mb-2 bg-danger text-white">Mua ngay</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="img/Product/Laptop4.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Asus X541UV-GO607</h5>
-                        <p class="card-text text-danger"> <b>12.490.000₫</b></p>
-                        <p class="card-text">
-                            Màn Hình : 15.6 inchHD LED backlight <br>
-                            CPU : Intel, Core i5, 2.50 GHz <br>
-                            Ram : 4 GB DDR4 <br>
-                            VGA : NVIDIA Geforce 920MX 2 GB <br>
-                            HĐH : Free DOS <br>
-                            Nặng : 2.0 kg</p>
-                        <a href="#" class="p-2 mb-2 bg-danger text-white">Mua ngay</a>
+    <!-- Phần đầu trang -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <img src="img/icon.ico" width="40" height="40" alt="DK Shop">
+                <a class="navbar-brand text-white" href="index.html">DK Shop</a>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Trang chủ</a>
+                    </li>
+                    <li>
+                        <div class="dropdown nav-item">
+                            <button class="btn btn-primary dropdown-toggle nav-item active" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sản phẩm<span class="sr-only">>(current)</span></button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="mouse.html">Chuột máy tính</a>
+                                <a class="dropdown-item" href="keyboard.html">Bàn phím máy tính</a>
+                                <a class="dropdown-item" href="laptop.html">Laptop</a>
+                                <a class="dropdown-item" href="accessories.html">Phụ kiện</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="about.html">Về chúng tôi</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0 text-white">
+                    <input class="form-control text-dark mr-sm-2" type="search" placeholder="Nhập từ khoá" aria-label="Search">
+                    <button class="btn btn-outline-light text-white my-2 my-sm-0" type="submit">Tìm kiếm</button>
+                </form>
+                <div class="dropdown b">
+                    <button class="dropdown-header btn btn-outline-light my-2 my-sm-0 b" type="button"
+                        id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="img/buy2.png" width="20" height="20" alt=""><sup><span class="badge badge-light">0</span></sup></button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <p class="dropdown-item-text cart">
+                            Giỏ hàng của bạn đang trống
+                        </p>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-sm-12 col-md-12 col-lg-12">
-            <div class="card-deck mt-4">
-                <div class="card">
-                    <img class="card-img-top" src="img/Product/Laptop5.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Laptop Asus Vivobook S13 S330UA-EY053T Core i3-8130U/Win10 (13.3 inch)</h5>
-                        <p class="card-text text-danger"> <b>13.729.000₫</b></p>
-                        <p class="card-text">
-                            Chip: Intel Core i3-8130U (2.20Ghz upto 3.40GHz, 2Cores, 4Threads, 4MB Cache, FSB 4GT/s) <br>
-                            RAM: 4GB LPDDR3-2133MHz <br>
-                            Ổ cứng: 256GB SSD M.2 Sata <br>
-                            Chipset đồ họa: Intel UHD Graphics 620 <br>
-                            Màn hình: 13.3-inch Full HD (1920 x 1080) IPS 60Hz, Anti-Glare with 45% NTSC <br>
-                            Hệ điều hành: Windows 10 bản quyền</p>
-                        <a href="#" class="p-2 mb-2 bg-danger text-white">Mua ngay</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="img/Product/Laptop6.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Macbook Air 2017 MQD32 (13.3 inch)</h5>
-                        <p class="card-text text-danger"> <b>20.490.000₫</b></p>
-                        <p class="card-text">
-                            Chip: Intel Core i5 Dual-core 1.8 GHz <br>
-                            RAM: 8GB 1600 MHz LPDDR3 <br>
-                            Màn hình: 13.3 inch (900 x 1440 pixels) LED-backlit IPS LCD <br>
-                            Ổ cứng: 128GB PCIe-Based Flash <br>
-                            Chipset đồ họa: Intel HD Graphics 6000 <br>
-                            Hệ điều hành: macOS Sierra</p>
-                        <a href="#" class="p-2 mb-2 bg-danger text-white">Mua ngay</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="img/Product/Laptop7.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Laptop Gaming MSI GL73 8RC-230VN Core i7-8750H/ Win10 (17.3 inch)</h5>
-                        <p class="card-text text-danger"> <b>23.899.000₫</b></p>
-                        <p class="card-text">
-                            Chip: Intel Core i7-8750H (2.20GHz upto 4.10GHz, 6Cores, 12Threads, 9MB cache, FSB 8GT/s) <br>
-                            RAM: 8GB DDR4-2666MHz, 2 Slots, Max 32GB <br>
-                            Ổ cứng: 1TB HDD 7200rpm + 1 Slot SSD M.2 PCIe <br>
-                            Chipset đồ họa: NVIDIA GeForce GTX 1050 4GB GDDR5 <br>
-                            Màn hình: 17.3 inch Full HD (1920 x 1080), wideview 94%NTSC color Anti-glare <br>
-                            Hệ điều hành: Windows 10 Home bản quyền</p>
-                        <a href="#" class="p-2 mb-2 bg-danger text-white">Mua ngay</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="img/Product/Laptop8.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Laptop Dell Vostro V3568-XF6C611 Core i5-7200U / Win 10 (15.6inch)</h5>
-                        <p class="card-text text-danger"> <b>13.490.000₫</b></p>
-                        <p class="card-text">
-                            Màn hình: 15.6" HD (1366 x 768 pixels) <br>
-                            CPU: Intel Core i5-7200U Processor <br>
-                            Ổ cứng: HDD 1TB <br>
-                            RAM: 4GB DDR4 <br>
-                            HĐH: Windows 10 <br>
-                            Pin: 3 Cell</p>
-                        <a href="#" class="p-2 mb-2 bg-danger text-white">Mua ngay</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="col">
-        <nav aria-label="Page navigation example">
-            <ul class="pagination justify-content-end">
-                <li class="page-item disabled">
-                    <a class="page-link" href="#" tabindex="-1">Previous</a>
-                </li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item disabled">
-                    <a class="page-link" href="#">Next</a>
-                </li>
-            </ul>
         </nav>
-    </div>
-</div>
+    </header>
+    <!-- Kết thúc phần đầu -->
+
+    <!-- ////// PHẦN NỘI DUNG CHÍNH //////-->
+    <main>
+        <section class="shop">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-12">
+                        <div class="row">
+                            <h2 class="text-white name">Laptop</h2>
+                        </div>
+                    </div>
+                    <div class="row line">
+                        <div class="col-md-6 col-lg-3 product">
+                            <figure>
+                                <img src="img/Product/Laptop1.jpg" alt="" class="img-fluid">
+                                <figcaption>
+                                    <h5>Asus Vivobook S14 S410UA-EB003T</h5>
+                                    <p class="text-danger"> <b>15.990.000₫</b></p>
+                                    <p class="detail">
+                                        Màn Hình : 14 inch Full HD Wide View <br>
+                                        CPU : Intel Core i5-8250U <br>
+                                        Ram : 4 GB DDR4 <br>
+                                        VGA : Intel UHD Graphics 620 <br>
+                                        HĐH : Windows 10 (64bit) <br>
+                                        Nặng : 1.43 kg</p>
+                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                            height="45" class="buy" alt="">Mua ngay</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-6 col-lg-3 product">
+                            <figure>
+                                <img src="img/Product/Laptop2.jpg" alt="" class="img-fluid">
+                                <figcaption>
+                                    <h5>Asus X441UA-WX027</h5>
+                                    <p class="text-danger"> <b>8.990.000₫</b></p>
+                                    <p class="detail">
+                                        Màn Hình : 14 inchHD LED backlight <br>
+                                        CPU : Intel Core i3 <br>
+                                        Ram : 4 GB DDR4 <br>
+                                        VGA : Intel HD Graphics Share <br>
+                                        HĐH : Free DOS <br>
+                                        Nặng : 2.09 Kg</p>
+                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                            height="45" class="buy" alt="">Mua ngay</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-6 col-lg-3 product">
+                            <figure>
+                                <img src="img/Product/Laptop3.jpg" alt="" class="img-fluid">
+                                <figcaption>
+                                    <h5>Asus FX503VD-E4082T/Core i5-7300HQ</h5>
+                                    <p class="text-danger"> <b>20.490.000₫</b></p>
+                                    <p class="detail">
+                                        Màn Hình : 15.6 inch Full HD <br>
+                                        CPU : Intel Core i5-7300HQ <br>
+                                        Ram : 8 GB, DDR4, 2400MHz <br>
+                                        VGA : NVIDIA Geforce GTX 1050 4 GB <br>
+                                        HĐH : Windows 10 Home <br>
+                                        Nặng : 2.2 Kg</p>
+                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                            height="45" class="buy" alt="">Mua ngay</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-6 col-lg-3 product">
+                            <figure>
+                                <img src="img/Product/Laptop4.jpg" alt="" class="img-fluid">
+                                <figcaption>
+                                    <h5>Asus X541UV-GO607</h5>
+                                    <p class="text-danger"> <b>12.490.000₫</b></p>
+                                    <p class="detail">
+                                        Màn Hình : 15.6 inchHD LED backlight <br>
+                                        CPU : Intel, Core i5, 2.50 GHz <br>
+                                        Ram : 4 GB DDR4 <br>
+                                        VGA : NVIDIA Geforce 920MX 2 GB <br>
+                                        HĐH : Free DOS <br>
+                                        Nặng : 2.0 kg</p>
+                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                            height="45" class="buy" alt="">Mua ngay</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="row line">
+                        <div class="col-md-6 col-lg-3 product">
+                            <figure>
+                                <img src="img/Product/Laptop5.jpg" alt="" class="img-fluid">
+                                <figcaption>
+                                    <h5>Laptop Asus Vivobook S13 S330UA-EY053T Core i3-8130U/Win10 (13.3
+                                        inch)</h5>
+                                    <p class="text-danger"> <b>13.729.000₫</b></p>
+                                    <p class="detail">
+                                        Chip: Intel Core i3-8130U (2.20Ghz upto 3.40GHz, 2Cores, 4Threads, 4MB Cache,
+                                        FSB
+                                        4GT/s) <br>
+                                        RAM: 4GB LPDDR3-2133MHz <br>
+                                        Ổ cứng: 256GB SSD M.2 Sata <br>
+                                        Chipset đồ họa: Intel UHD Graphics 620 <br>
+                                        Màn hình: 13.3-inch Full HD (1920 x 1080) IPS 60Hz, Anti-Glare with 45% NTSC
+                                        <br>
+                                        Hệ điều hành: Windows 10 bản quyền</p>
+                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                            height="45" class="buy" alt="">Mua ngay</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-6 col-lg-3 product">
+                            <figure>
+                                <img src="img/Product/Laptop6.jpg" alt="" class="img-fluid">
+                                <figcaption>
+                                    <h5>Macbook Air 2017 MQD32 (13.3 inch)</h5>
+                                    <p class="text-danger"> <b>20.490.000₫</b></p>
+                                    <p class="detail">
+                                        Chip: Intel Core i5 Dual-core 1.8 GHz <br>
+                                        RAM: 8GB 1600 MHz LPDDR3 <br>
+                                        Màn hình: 13.3 inch (900 x 1440 pixels) LED-backlit IPS LCD <br>
+                                        Ổ cứng: 128GB PCIe-Based Flash <br>
+                                        Chipset đồ họa: Intel HD Graphics 6000 <br>
+                                        Hệ điều hành: macOS Sierra</p>
+                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                            height="45" class="buy" alt="">Mua ngay</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-6 col-lg-3 product">
+                            <figure>
+                                <img src="img/Product/Laptop7.jpg" alt="" class="img-fluid">
+                                <figcaption>
+                                    <h5>Laptop Gaming MSI GL73 8RC-230VN Core i7-8750H/ Win10 (17.3 inch)</h5>
+                                    <p class="text-danger"> <b>23.899.000₫</b></p>
+                                    <p class="detail">
+                                        Chip: Intel Core i7-8750H (2.20GHz upto 4.10GHz, 6Cores, 12Threads, 9MB cache,
+                                        FSB
+                                        8GT/s) <br>
+                                        RAM: 8GB DDR4-2666MHz, 2 Slots, Max 32GB <br>
+                                        Ổ cứng: 1TB HDD 7200rpm + 1 Slot SSD M.2 PCIe <br>
+                                        Chipset đồ họa: NVIDIA GeForce GTX 1050 4GB GDDR5 <br>
+                                        Màn hình: 17.3 inch Full HD (1920 x 1080), wideview 94%NTSC color Anti-glare
+                                        <br>
+                                        Hệ điều hành: Windows 10 Home bản quyền</p>
+                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                            height="45" class="buy" alt="">Mua ngay</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-md-6 col-lg-3 product">
+                            <figure>
+                                <img src="img/Product/Laptop8.jpg" alt="" class="img-fluid">
+                                <figcaption>
+                                    <h5>Laptop Dell Vostro V3568-XF6C611 Core i5-7200U / Win 10 (15.6inch)</h5>
+                                    <p class="text-danger"> <b>13.490.000₫</b></p>
+                                    <p class="detail">
+                                        Màn hình: 15.6" HD (1366 x 768 pixels) <br>
+                                        CPU: Intel Core i5-7200U Processor <br>
+                                        Ổ cứng: HDD 1TB <br>
+                                        RAM: 4GB DDR4 <br>
+                                        HĐH: Windows 10 <br>
+                                        Pin: 3 Cell</p>
+                                    <a href="#" class="p-3 mb-3 bg-info text-white"><img src="img/buy2.png" width="45"
+                                            height="45" class="buy" alt="">Mua ngay</a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="pages">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination justify-content-end">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1">Previous</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- ////// Kết thúc PHẦN NỘI DUNG CHÍNH //////-->
+
+    <!-- Phần cuối trang -->
+    <footer>
+        <section class="foot">
+            <div class="container mt-4">
+                <div class="row k">
+                    <nav class="navbar navbar-light">
+                        <form class="form-inline">
+                            <h5 class="dk">Đăng ký nhận bản tin</h5>
+                            <input type="text" class="form-control" placeholder="Email" aria-label="Email"
+                                aria-describedby="basic-addon1">
+                            <div class="dkbtn"><button class="btn btn-outline-light text-white my-2 my-sm-0" type="submit">Đăng
+                                    ký</button></div>
+                        </form>
+                    </nav>
+                </div>
+                <div class="row foot2">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="footer-title">
+                            <h4>DỊCH VỤ</h4>
+                        </div>
+                        <div class="footer-content">
+                            <p><a href="#">Điều khoản sử dụng</a></p>
+                            <p><a href="#">Chính sách bảo mật</a></p>
+                            <p><a href="#">Giới thiệu DK</a></p>
+                            <p><a href="#">Hệ thống phân phối</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="footer-title">
+                            <h4>HỖ TRỢ</h4>
+                        </div>
+                        <div class="footer-content">
+                            <p><a href="#">Chính sách đổi - trả - hoàn tiền</a></p>
+                            <p><a href="#">Chính sách khách sỉ</a></p>
+                            <p><a href="#">Phương thức vận chuyển</a></p>
+                            <p><a href="#">Phương thức thanh toán</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="footer-title">
+                            <h4>TÀI KHOẢN CỦA TÔI</h4>
+                        </div>
+                        <div class="footer-content">
+                            <p><a href="#">Đăng nhập/Tạo mới tài khoản</a></p>
+                            <p><a href="#">Thay đổi địa chỉ khách hàng</a></p>
+                            <p><a href="#">Chi tiết tài khoản</a></p>
+                            <p><a href="#">Lịch sử mua hàng</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="footer-title">
+                            <h4>LIÊN HỆ</h4>
+                        </div>
+                        <div class="footer-content2">
+                            <p>Địa Chỉ: 06 xxxx xxx, phường X, quận Y, thành phố Z</p>
+                            <p>Email: hotro@dk.vn </p>
+                            <p>Phone: 1900 xxxx </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- Kết thúc phần cuối trang -->
+
     <script src="js/jquery-3.3.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
